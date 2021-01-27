@@ -19,35 +19,38 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* HEADER */
-
-.logo img {
-  vertical-align: middle;
-}
 
 .logo {
   width: 15%;
-  display: inline-block;
-  margin-top: 25px;
+  float: left;
+  margin-top: 20px;
 }
 
 .menu {
-  width: 84%;
-  height: 600px;
-  display: inline-block;
+  width: 35%;
+  float: left;
+  margin-top: 20px;
+  line-height: 40px;
 }
 
-ul li{
-  list-style: none;
-  display: inline-block;
+.menu-button {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+  line-height: 40px;
 }
 
-ul li a {
-  text-decoration: none;
+nav ul li{
   text-transform: uppercase;
   font-size: 11px;
   font-weight: bold;
-  color: white;
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffff;
   padding-left: 20px;
 }
 
@@ -56,27 +59,10 @@ ul li a {
   height: 500px;
 }
 
-.menu-button{
-  float: right;
-  margin-left: 25px;
+.menu-button nav ul {
+  text-align: right;
 }
 
-/* HEADER */
+.menu-button nav ul li {
 
-/* PULSANTI */
-
-.button {
-  border: 1px solid #ffff;
-  padding-left: 25px;
-  padding-right: 50px;
-  border-radius: 5px;
-  padding-bottom: 5px;
-}
-
-.button-green {
-  background-color: #7CBB02;
-  padding-right: 20px;
-  padding-bottom: 5px;
-  padding-top: 2px;
-  border-radius: 5px;
 }
