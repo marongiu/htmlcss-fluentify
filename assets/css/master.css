@@ -162,6 +162,7 @@ section.information p {
 
 .site-information img#doc {
   width: 140px;
+  margin-bottom: 15px;
 }
 
 section h3 {
@@ -180,8 +181,11 @@ section.site-information {
   text-align: center;
 }
 
-.horizontal {
+
+hr{
   margin-left: 42%;
+  width: 90px;
+  border: 1px solid;
 }
 
 
@@ -189,6 +193,6 @@ section.site-information {
   margin-top: 50px;
 }
 
-.padding {
+.space-left {
   padding-left: 9%;
 }
