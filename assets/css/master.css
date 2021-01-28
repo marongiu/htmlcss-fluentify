@@ -91,21 +91,15 @@ nav ul li{
   text-align: right;
 }
 
-.menu-button  li {
-  margin-left: 20px;
-}
-
 .button{
   border: 1px solid white;
-  padding-right: 30px;
-  padding-left: 10px;
+  padding: 10px 25px;
   border-radius: 5px;
 }
 
 .button-green {
   background-color: #7CBB02;
-  padding-right: 30px;
-  padding-left: 10px;
+  padding: 9px 20px;
   border-radius: 5px;
 }
 
@@ -211,11 +205,22 @@ hr.horizontal{
 
 #plane-button{
   margin-top: 20px;
-  color: #759DC9;
+  color: blue;
 }
 
 
 .plane-text {
   color: #858585;
   font-size: 23px;
+}
+
+.plane a {
+  line-height: 40px;
+}
+
+/* FOOTER */
+
+.bg-footer {
+  height: 150px;
+  background-color: #D3D3D3;
 }
