@@ -54,6 +54,14 @@ body {
 .mt {
   margin-top: 20px;
 }
+
+.ml2 {
+  padding-right: 20px;
+}
+
+.ml {
+  padding-left: 15%;
+}
 /* COLONNE  */
 
 
@@ -242,8 +250,13 @@ p.footer-title{
   display: inline-block;
 }
 
-select.gender {
+select.language {
   width: 200px;
+  border: 1px solid transparent;
+  background-color: #F0F0F0;
+  color: #888888;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .footer-text {
@@ -267,7 +280,7 @@ select.gender {
   font-size: 20px;
 }
 
-.gender {
+.language {
   color: #858585;
 }
 
@@ -275,18 +288,10 @@ a.help-button {
   position: fixed;
   bottom: 0;
   right: 15%;
-  position: fixed;
-  background-color: #7CBB02;
-  color: white;
-  text-decoration: none;
   padding: 10px;
   border-radius: 5px;
-}
-
-.ml2 {
-  padding-right: 20px;
-}
-
-.ml {
-  padding-left: 15%;
+  text-decoration: none;
+  background-color: #7CBB02;
+  color: white;
+  cursor: pointer;
 }
