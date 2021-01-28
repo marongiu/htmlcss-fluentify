@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Fluentify</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/master.css">
   </head>
   <body>
@@ -41,7 +41,7 @@
           <!-- Titolo -->
           <div class="row">
             <div class="col-45">
-              <div class="title">
+              <div class="title mt">
               <h1>Scegli l'inglese studiato per i professionisti</h1>
               <a class="title-button" href="#">STRUTTURA UN PIANO</a>
                 </div>
@@ -100,7 +100,7 @@
             </div>
           </div>
         </div>
-        <hr class="mt">
+        <hr class="rulerow mt">
             <!-- MAIN PARTE 3 CON GRAFICO -->
         <div class="container">
           <div class="row">
@@ -113,7 +113,7 @@
                 <h1 class="plane-title mt">Scopri il tuo livello iniziale e struttura un piano personalizzato</h1>
                 <p class="plane-text mt">L'esperienza Fluentify parte sempre da un test di placement per avere una chiara visione del tuo inglese, ad oggi.
                 </p>
-                <a id="plane-button" href="#">Scopri il nostro test di placement</a>
+                <a id="plane-link" href="#">Scopri il nostro test di placement</a>
               </section>
             </div>
           </div>
@@ -124,16 +124,33 @@
       <div class="row">
         <div class="col-100 mt">
           <div class="bg-footer">
-        </div>
         <!-- riapro container per centrare testo -->
         <div class="container">
           <div class="col-50">
-            <p>STRUTTURA UN PIANO</p>
+            <div class="footer-title">
+              <p class="footer-text">Struttura un piano</p>
+            </div>
           </div>
+      </div>
+      <div class="col-50">
+        <div class="selection ml">
+          <form>
+            <label for="gender"><p class="plane-text">Sono</label>
+            <select name="gender" id="gender">
+              <option value="" disabled selected>Seleziona</option>
+              <option value="uomo">Uomo</option>
+              <option value="donna">Donna</option>
+              <option value="altro">Altro</option>
+            </select>
+          </form>
         </div>
-      </div>
-      </div>
-    </footer>
-
+        <div class="footer-button ml">
+          <a href="#">VISUALIZZA IL TUO PIANO</a>
+        </div>
+          </div>
+            </div>
+              </div>
+                </div>
+        </footer>
   </body>
 </html>
