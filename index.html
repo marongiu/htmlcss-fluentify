@@ -120,37 +120,35 @@
         </div>
     </main>
 
+
     <footer>
       <div class="row">
-        <div class="col-100 mt">
-          <div class="bg-footer">
-        <!-- riapro container per centrare testo -->
-        <div class="container">
-          <div class="col-50">
-            <div class="footer-title">
-              <p class="footer-text">Struttura un piano</p>
+        <div class="bg-footer">
+          <div class="container">
+            <div class="col-50">
+              <p class="footer-title">Struttura un piano</p>
             </div>
-          </div>
-      </div>
-      <div class="col-50">
-        <div class="selection ml">
-          <form>
-            <label for="gender"><p class="plane-text">Sono</label>
-            <select name="gender" id="gender">
-              <option value="" disabled selected>Seleziona</option>
-              <option value="uomo">Uomo</option>
-              <option value="donna">Donna</option>
-              <option value="altro">Altro</option>
-            </select>
-          </form>
-        </div>
-        <div class="footer-button ml">
-          <a href="#">VISUALIZZA IL TUO PIANO</a>
-        </div>
-          </div>
-            </div>
+
+            <div class="col-50 ml">
+              <div class="footer-text ml2">
+                <p id="text-selection">Sono</p>
               </div>
-                </div>
-        </footer>
+              <div class="selection">
+                <form class="gender-selection ml2">
+                  <select class="gender" name="gender">
+                    <option value="" disabled>Seleziona</option>
+                    <option value="uomo">Uomo</option>
+                    <option value="donna">Donna</option>
+                    <option value="altro">Altro</option>
+                  </select>
+                </form>
+            </div>
+            <div class="footer-button">
+              <a href="#">VISUALIZZA IL TUO PIANO</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
