@@ -48,6 +48,10 @@ body {
   width: 100%;
 }
 
+.col-33 {
+  width: calc(100% / 3);
+}
+
 .mt {
   margin-top: 20px;
 }
@@ -142,4 +146,49 @@ section.information p {
   font-size: 20px;
   font-weight: bold;
   color: grey;
+}
+
+
+/* MAIN 2 CON FOTO */
+
+.site-information img#profile {
+  width: 125px;
+}
+
+.site-information img#computer {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.site-information img#doc {
+  width: 140px;
+}
+
+section h3 {
+  font-size: 27px;
+  color: #7CBB02;
+}
+
+section p {
+  color: #858585;
+  font-weight: bold;
+  line-height: 25px;
+  font-size: 17px;
+}
+
+section.site-information {
+  text-align: center;
+}
+
+.horizontal {
+  margin-left: 42%;
+}
+
+
+.mt2 {
+  margin-top: 50px;
+}
+
+.padding {
+  padding-left: 9%;
 }
